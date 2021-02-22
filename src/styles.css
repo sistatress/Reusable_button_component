@@ -1,0 +1,50 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+  border-style: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1 rem;
+  margin-top: 5px;
+}
+
+/* Button mode */
+
+.button--light {
+  background-color: #f7f5f5;
+}
+
+.button--dark {
+  background-color: #1c1919;
+}
+
+.button--blue {
+  background-color: #387dc7;
+}
+
+.button--pink {
+  background-color: #bd4496;
+}
+
+
+/* Button size */
+
+.button--small {
+  width: 150px;
+}
+
+.button--medium {
+  width: 200px;
+  font-weight: bold;
+}
+
+.button--large {
+  width: 250px;
+  font-weight: bolder;
+}
